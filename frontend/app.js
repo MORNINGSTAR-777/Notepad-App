@@ -9,7 +9,7 @@ const API_BASE = 'https://notepad-app-backend.onrender.com/api';
 
 // ── App State ────────────────────────────────────────────────
 let currentNotes  = [];  // Cached list of notes from the server
-let pendingDeleteId = null; // ID of note queued for deletion
+let pendingDeleteId = null;
 
 // ════════════════════════════════════════════════════════════
 // INITIALIZATION
