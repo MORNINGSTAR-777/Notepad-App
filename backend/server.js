@@ -14,7 +14,10 @@ const app = express();
 
 // ── Middleware ───────────────────────────────────────────────
 app.use(cors({
-  origin: '*', // In production, restrict to your frontend domain
+  origin: [
+    'https://notepad-pi2ws5gpk-adilskillful-9295s-projects.vercel.app',
+    'http://localhost:5000'
+  ],
   methods: ['GET', 'POST', 'DELETE', 'PUT'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
