@@ -5,7 +5,7 @@
 
 // ── Config ───────────────────────────────────────────────────
 // Change this to your backend URL when deploying
-const API_BASE = 'https://notepad-app-backend.onrender.com/api';
+const API_BASE = 'https://notepad-app-osjc.onrender.com';
 
 // ── App State ────────────────────────────────────────────────
 let currentNotes  = [];  // Cached list of notes from the server
